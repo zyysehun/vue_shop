@@ -50,3 +50,11 @@
 [2022-05-26T21:30:33.435] [DEBUG] cheese - admin
 [2022-05-26T21:30:33.440] [DEBUG] cheese - null
 [2022-05-26T21:30:33.440] [DEBUG] cheese - null
+[2022-05-28T10:30:52.901] [DEBUG] cheese - login => username:admin,password:123456
+[2022-05-28T10:30:52.903] [DEBUG] cheese - admin
+[2022-05-28T10:30:52.943] [DEBUG] cheese - null
+[2022-05-28T10:30:52.943] [DEBUG] cheese - null
+[2022-05-28T10:51:52.303] [DEBUG] cheese - login => username:admin,password:123456
+[2022-05-28T10:51:52.303] [DEBUG] cheese - admin
+[2022-05-28T10:51:52.307] [DEBUG] cheese - null
+[2022-05-28T10:51:52.307] [DEBUG] cheese - null
