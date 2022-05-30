@@ -428,6 +428,15 @@ export default {
         return this.$message.error('修改参数项失败！')
       }
       this.$message.success('修改参数项成功！')
+    },
+    // 点击按钮，展示文本输入框
+    showInput (row) {
+      row.inputVisible = true
+      // 让文本框自动获得焦点
+      // $nextTick方法作用： 当页面上元素被重新渲染之后，才会执行回调函数中的代码
+      this.$nextTick(_ => {
+        this.$refs.saveTagInput.$refs.input.focus()
+      })
     }
 
   }
